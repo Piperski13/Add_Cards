@@ -1,0 +1,59 @@
+p{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.facebook-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    align-items: center;
+}
+.facebook-add-box{
+    display: inline-block;
+    border-style: groove;
+    margin-right: 10px;
+    box-shadow: 5px 5px lightslategray;
+    width: 200px;
+}
+.main-profile{
+    width: 100%;
+}
+.second-profile{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: bottom; 
+    padding-bottom: 2px;
+}
+.profile-name{
+    font-weight: bold;
+    font-size: 18px;
+}
+.mutual-freinds-paragraph{
+    color: gray;
+}
+.facebook-second-pic{
+    display: inline-block;
+}
+.mutual-friends{
+    display: inline-block;
+    vertical-align: top;
+}
+.add-friend-button{
+    background-color:rgb(24, 119, 242);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin: 10px 10px 10px 0px ;
+}
+.facebook-description{
+    line-height: 30px;
+    padding-left: 5px;
+}
+.description-grid{
+    display: grid;
+    grid-template-columns: 35px 1fr;
+}
