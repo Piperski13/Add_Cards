@@ -11,10 +11,10 @@ p{
 }
 .facebook-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 850px) {
     /* Media query for screens with a maximum width of 768px */
     .facebook-grid {
         grid-template-columns: 1fr 1fr; /* One column for smaller screens */
@@ -23,7 +23,7 @@ p{
         margin-top: 3rem;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     /* Media query for screens with a maximum width of 768px */
     .facebook-grid {
         grid-template-columns: 1fr; /* One column for smaller screens */
@@ -39,8 +39,13 @@ p{
     box-shadow: 5px 5px lightslategray;
     width: 200px;
 }
+
 .main-profile{
     width: 100%;
+    height: 250px;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 3%;
 }
 .second-profile{
     width: 25px;
