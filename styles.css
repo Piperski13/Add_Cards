@@ -46,6 +46,7 @@ p{
     aspect-ratio: 4/3;
     object-fit: cover;
     border-radius: 3%;
+    cursor: pointer;
 }
 .second-profile{
     width: 25px;
@@ -54,6 +55,7 @@ p{
     object-fit: cover;
     vertical-align: bottom; 
     padding-bottom: 2px;
+    cursor: pointer;
 }
 .profile-name{
     font-weight: bold;
